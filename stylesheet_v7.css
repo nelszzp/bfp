@@ -307,5 +307,6 @@ body {
 
 			a.footer-link::after {
 				border: none;
+				display: none;
 				height: 0px;
 			}
