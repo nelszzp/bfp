@@ -192,8 +192,8 @@ body {
 
 		@media only screen and (max-width: 600px) {
 				h1 {
-					font-family: 'Courier', monospace;
-					font-weight: 700;
+					font-family: 'Roboto Mono', monospace;
+					font-weight: 400;
 					letter-spacing: 0px;
 					font-style: normal;
 				}
@@ -212,8 +212,8 @@ body {
 
 		@media only screen and (max-width: 600px) {
 				h2 {
-					font-family: 'Courier', monospace;
-					font-weight: 700;
+					font-family: 'Roboto Mono', monospace;
+					font-weight: 400;
 					letter-spacing: 0px;
 					font-style: normal;
 				}
@@ -291,7 +291,7 @@ body {
 			}
 
 		a:link::after, a:visited::after {
-		    display:block;
+		    display: block;
 		    content: '';
 		    border-bottom: 2px solid; 
 		    height: 6px; 
@@ -305,8 +305,12 @@ body {
 		    transform-origin: 0% 50%;
 		}
 
+			a.footer-link:link, a.footer-link:visited {
+				display: inline;
+			}
+			
 			a.footer-link::after {
+				display: inline;
 				border: none;
-				display: none;
 				height: 0px;
 			}
