@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Be+Vietnam:300,300i,500&amp;display=swap');
 
 body {
-	color: #34EB86;
+	color: #00400C;
 	background-color: #FFF;
 }
 
@@ -283,7 +283,7 @@ body {
 			text-decoration: none;
 			font-weight: 500;
 			display: inline-block;
-			color: #2B412F;
+			color: #00400C;
 		}
 
 			a.navigation {
